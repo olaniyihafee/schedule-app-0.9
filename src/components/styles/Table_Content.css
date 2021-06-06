@@ -1,0 +1,75 @@
+
+.Table-Entire-Container { 
+    width: 100%;
+    display:  flex;
+    direction: column;
+    padding: auto;
+    background-color:lightseagreen;
+  } 
+
+  .Table-Right-Container {
+    width: 60%;
+    height:fit-content;
+    overflow-x: scroll;
+    margin: 5px;
+    background-color: lawngreen;
+  }
+
+  .Table-Left-Container {
+    width: 40%;
+    height:fit-content;
+    margin: 5px;
+    background-color:lightcoral;
+  }
+  
+  .Table-Content { 
+    height: 40px;
+    margin: 5px auto;
+    border: solid 2px black ;
+    border-radius: 4px;
+  }
+  .Table-Content-Test {
+    width: 1600px; 
+    height: 40px;
+    margin: 5px auto;
+    border: solid 2px rgb(87, 82, 82) ;
+    border-radius: 4px;
+  }
+
+
+  .Tasks-Headings-Container {
+    width: 100%;  
+  }
+  .Tasks-Headings-Container li {
+    display: inline-block;  
+  }
+  .Tasks{
+    width: 40%;   
+  }
+  .Start{
+    width: 20%;   
+  }
+  .Due{
+    width: 20%;  
+  }
+  .Days{
+    width: 10%;  
+  }
+  .Percentage{
+    width: 10%;   
+  }
+
+
+
+  .Weeks-Headings-Container {
+    width: 210px;
+    align-content: center;
+  }
+  .Weeks-Headings-Container span{
+    width: 210px;
+    text-align: center;
+  }
+  .Weeks-Headings-Container li {
+    width: 20px;
+    display: inline-block;
+  }

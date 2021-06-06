@@ -1,0 +1,56 @@
+.Entire-Body {
+  margin: 20px;
+  width: 100%;
+}
+
+li{
+  list-style: none;
+}
+
+.Heading-Container {    
+  width: 100%;
+}
+
+.h1 {    
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.h2 {    
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.Button{
+  margin: 0px 20px;
+  width: 120px;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+}
+.Button-Blue {
+  color: white;
+  background-color: blue;
+  border-radius: 20px;
+}
+.Button-Normal {
+  background-color: transparent;
+}
+
+.Float-Right {
+  float: right;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.Subtittles-Container {
+  width: 100%;
+  background-color: rgb(255, 217, 0);
+  padding: 10px 0px 10px;
+}
+
+.Project-Tittle-Add-Task-Container {
+  width: 40%;
+  background-color: aqua;
+}
