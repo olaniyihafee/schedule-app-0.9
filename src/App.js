@@ -7,6 +7,8 @@ import Each_Divisions_Division from './screens/Each_Divisions_Division';
 import Settings from './screens/Settings';
 import './App.css';
 
+import PopUp from './components/Pop_up'
+
 import { createContext, useEffect, useState, useContext } from 'react'
 
 function App() {
@@ -37,18 +39,17 @@ function App() {
       console.log(data2);
   }, []) */ 
 
-  return (    
-    <BrowserRouter>       
-      <Switch>
-      {/* <Route path="/" exact component={Each_Project_Division} /> */}
-      {/* <theContext.Consumer> */}
-          <Route path="/" exact component={All_Projects} />
-        {/* </theContext.Consumer> */}
+  return (   
+    <div>
+      <BrowserRouter>       
+      <Switch>      
+          <Route path="/" exact component={All_Projects} />        
+          <Route path="/" exact component={Each_Project_Division} /> 
           <Route path="/Each_Project_Division" exact component={Each_Project_Division} />
           <Route path="/Each_Divisions_Division" exact component={Each_Divisions_Division} />
           <Route path="/Settings" exact component={Settings} />
       </Switch>
-    </BrowserRouter>    
+    </BrowserRouter></div> 
   );
 }
 

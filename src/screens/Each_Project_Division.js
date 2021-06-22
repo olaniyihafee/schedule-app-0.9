@@ -49,7 +49,7 @@ function Each_Project_Division() {
 
       </div>
 
-      <Table_Content/>
+      <div><Table_Content/></div>
 
   </div>
   );
